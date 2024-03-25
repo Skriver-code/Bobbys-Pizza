@@ -38,6 +38,7 @@ const page = (
                 
             </ul>
         </nav>
+        <img src="./PixelPizza.webp" width="100px" />
     </div>
 );
 
