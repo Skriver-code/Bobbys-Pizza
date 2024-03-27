@@ -7,6 +7,13 @@ function Navibar() {
     );
 }
 
+function Composability() {
+return(
+<p>Using a function within a function</p>
+)
+
+}
+
 
 const page = (
     <div className="container" style={{ border: "2px solid #D2B48C", width: "50%", padding: "10px" }}>
@@ -31,6 +38,7 @@ const page = (
             </ul>
         </nav>
         <img src="./PixelPizza.webp" width="100px" />
+        <Composability />
     </div>
 );
 
@@ -46,9 +54,9 @@ ReactDOM.render(
     , document.getElementById("root"))
 
 
-
+   
 function RenderingList(){
-return(<lu>Rendering a function</lu>);
+return(<footer>Skriver-Code. All rights reserved.</footer>);
 }
 
 ReactDOM.render(<RenderingList />, document.getElementById("rendering"))
