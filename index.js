@@ -7,14 +7,6 @@ function Navibar() {
     );
 }
 
-ReactDOM.render(
-    <div>
-        <Navibar />
-        <p>{page}</p>
-    </div>,
-    document.getElementById("root")
-);
-
 
 const page = (
     <div className="container" style={{ border: "2px solid #D2B48C", width: "50%", padding: "10px" }}>
@@ -53,3 +45,10 @@ ReactDOM.render(
     </div>
     , document.getElementById("root"))
 
+
+
+function RenderingList(){
+return(<lu>Rendering a function</lu>);
+}
+
+ReactDOM.render(<RenderingList />, document.getElementById("rendering"))
