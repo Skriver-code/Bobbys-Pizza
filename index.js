@@ -3,13 +3,23 @@ function Navibar() {
         <nav className="title">
             <h1>Bobbys Pizza Bix</h1>
             <hr className="red-line" />
+           
         </nav>
     );
 }
 
 function Composability() {
 return(
-<p>Using a function within a function</p>
+    <div className="price">
+        <h3>Price</h3>
+<p>
+    6 slices; 80 kr.
+</p>
+
+<p>   
+     8 slices; 110 kr.
+</p>
+</div>
 )
 
 }
@@ -37,7 +47,7 @@ const page = (
                 
             </ul>
         </nav>
-        <img src="./PixelPizza.webp" width="100px" />
+       
         <Composability />
     </div>
 );
